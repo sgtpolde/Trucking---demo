@@ -55,7 +55,7 @@ export function Sidebar() {
       <aside
   ref={sidebarRef}
   id="sidebar"
-  className={`flex fixed top-0 left-0 h-full w-60 sm:w-64 py-8 bg-white dark:bg-gray-900 dark:border-gray-700 ${
+  className={`flex fixed top-0 left-0 h-full w-60 sm:w-64 py-8 bg-white dark:bg-gray-900 dark:border-gray-700  z-10 ${
     isSidebarOpen ? 'flex' : 'hidden'
   }`}
 >

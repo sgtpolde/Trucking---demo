@@ -17,9 +17,10 @@ export default function App({ Component }: PageProps) {
         <Sidebar />
 
         {/* Main content area */}
-        <div className="min-w-screen flex-auto flex flex-col">
+        <div className="min-w-screen min-h-screen flex flex-auto flex-col">
           <Navbar />
           <Testo />
+          <Component />
         </div>
       </body>
     </html>
