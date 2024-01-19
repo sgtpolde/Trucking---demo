@@ -2,9 +2,9 @@ export function Navbar() {
   return (
     <nav
       x-data="{ isOpen: false }"
-      class="z-50 fixed top-0 w-full max-md:hidden overflow-x-auto dark:bg-gray-900"
+      class="z-50 fixed top-0 w-full max-md:hidden overflow-x-auto dark:bg-gray-900 border-b dark:border-gray-700"
     >
-      <div class="px-6 py-4 px-2 w-full">
+      <div class="px-14 py-4 w-full">
         <div class="lg:flex lg:items-center lg:justify-between">
           <div class="flex items-center justify-between">
             <a href="#">

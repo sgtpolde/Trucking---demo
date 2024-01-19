@@ -1,7 +1,7 @@
 import { type PageProps } from "$fresh/server.ts";
 import { Navbar } from "../islands/Navbar.tsx";
-import { Testo } from "../components/Testo.tsx";
 import { Sidebar } from "../islands/Sidebar.tsx";
+
 
 export default function App({ Component }: PageProps) {
   return (
@@ -12,7 +12,6 @@ export default function App({ Component }: PageProps) {
         <title>Trucking - demo</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-
       <body className="flex flex-col">
         <Navbar />
         {/* Main content area */}
@@ -22,7 +21,6 @@ export default function App({ Component }: PageProps) {
 
           {/* Content */}
           <div className="flex-grow mx-auto mt-16">
-            <Testo />
             <Component />
           </div>
         </div>

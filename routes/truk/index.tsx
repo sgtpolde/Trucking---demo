@@ -1,9 +1,6 @@
-import { Sidebar } from "../../islands/Sidebar.tsx";
-
 export default function Truk() {
   return (
     <div role="alert" class="rounded-xl border border-gray-100 bg-white p-4">
-      <Sidebar />
       <div class="flex items-start gap-4">
         <span class="text-green-600">
           <svg
