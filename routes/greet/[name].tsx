@@ -6,7 +6,7 @@ import Truk from "../truk/index.tsx";
 export default function Greet(props: PageProps) {
   return (
     <div class="bg-slate-900 h-screen flex justify-center items-center">
-        <Sidebar />
+      <Sidebar />
       <div>
         <Testo />
       </div>

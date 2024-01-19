@@ -9,7 +9,7 @@
     "preview": "deno run -A main.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
-"deploy:vercel": "sh deploy-vercel.sh", 
+  "deploy:vercel": "sh deploy-vercel.sh",
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "exclude": ["**/_fresh/*"],
   "imports": {
