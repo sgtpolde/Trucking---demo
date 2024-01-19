@@ -35,7 +35,7 @@ export default function Error404() {
           <div class="relative w-full mt-12 lg:w-1/2 lg:mt-0">
             <img
               class="w-full max-w-lg lg:mx-auto"
-              src="./illustration.svg"
+              src="/illustration.svg"
               alt=""
             />
           </div>
