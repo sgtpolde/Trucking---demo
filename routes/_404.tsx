@@ -10,7 +10,7 @@ export default function Error404() {
       </Head>
 
       <section class="bg-white dark:bg-gray-900">
-        <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
+        <div class="container h-screen overflow-hiddenpx-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
           <div class="wf-ull lg:w-1/2">
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">
               404 error

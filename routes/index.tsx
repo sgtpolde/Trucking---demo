@@ -16,9 +16,12 @@ export default function Home() {
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
         <h1 class="text-4xl font-bold">Welcome to Fresh</h1>
-        <p class="my-4">
-          Try updating this message in the
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
+        <p class="my-4 flex flex-col items-center">
+          Try clicking this blue button
+          <a
+            href="/greet/John"
+            class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600"
+          >Blue button</a>
         </p>
         <Counter count={count} />
       </div>

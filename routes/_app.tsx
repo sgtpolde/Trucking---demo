@@ -2,7 +2,6 @@ import { type PageProps } from "$fresh/server.ts";
 import { Navbar } from "../islands/Navbar.tsx";
 import { Sidebar } from "../islands/Sidebar.tsx";
 
-
 export default function App({ Component }: PageProps) {
   return (
     <html>
