@@ -71,7 +71,7 @@ export function Sidebar() {
         <div className="flex flex-col items-center w-16 h-screen py-8 space-y-8 bg-gray-900 border-gray-700 ">
           {/* ... Sidebar icons ... */}
           <a
-              onClick={() => handleIconClick("home")}
+            onClick={() => handleIconClick("home")}
             className={`p-1.5  rounded-lg cursor-pointer  ${
               selectedIcon === "home"
                 ? "bg-gray-800 text-blue-500"
@@ -119,7 +119,6 @@ export function Sidebar() {
           </a>
 
           <a
-           
             onClick={() => handleIconClick("notifications")}
             className={`p-1.5 focus:outline-none transition-colors duration-200 rounded-lg cursor-pointer ${
               selectedIcon === "notifications"
@@ -160,9 +159,9 @@ export function Sidebar() {
             {/* ... Settings icon SVG ... */}
           </a>
         </div>
-        <div className="h-screen py-8 overflow-y-auto bg-gray-900 border-l border-r border-gray-700 sm:w-64 w-60 ">
-          <h2 className="px-5 text-lg font-medium text-white">
-            Accounts
+        <div className="h-screen py-2 overflow-y-auto bg-gray-900 border-l border-r border-gray-700 sm:w-64 w-60 ">
+          <h2 className="px-5 text-lg font-medium text-white border-b-2 border-gray-700 py-5">
+            Used m2 / max m2
           </h2>
 
           <div className="mt-8 text-white px-4">
