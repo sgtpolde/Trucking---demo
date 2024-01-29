@@ -6,7 +6,10 @@
         - Company
         - Employee
     - Permissions
-        - 
+        - View
+        - Create
+        - Delete
+        - Update
 - Optimizator for parcels
     - Dimensions of truck / carrier
     - Dimensions of parcel (individual)
