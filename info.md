@@ -100,3 +100,12 @@ All endpoints:
   ```
 
 - ## Authentication (`/auth`)
+    - Register (`/register`)
+    - Login (`/login`)
+    - ResetPassword (`/reset-password`)
+
+- Optimizator (`/optimize`)
+- History (`/history`)
+    - Save (`/save`)
+    - Load (`/load/:uuid`) -> (load single history)
+    - Retrieve (`/retrieve/:uuid`) -> (Get all history for company)
